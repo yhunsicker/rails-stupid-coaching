@@ -1,0 +1,72 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+$green: #D2E7E5;
+
+body {
+  background: #D2E7E5;
+}
+
+ h1 {
+    color: white;
+  }
+
+.question {
+  text-align: center;
+  font-size: 20px;
+  font-family: arial;
+}
+
+.banner {
+  background: #0075A2;
+  padding: 80px;
+  text-align: center;
+  font-size: 36px;
+  border: solid;
+  border-width: thick;
+  font-family: arial;
+  border-radius: 15px;
+}
+
+.answer {
+  text-align: center;
+  font-family: arial;
+}
+
+.button {
+  background: #0075A2;
+  color: white;
+  font-family: arial;
+  padding: 9px;
+  border-radius: 15px;
+  font-size: 15px;
+}
+.qbutton {
+  background: #0075A2;
+  border-radius: 15px;
+  color: white;
+  font-family: arial;
+  padding: 12px;
+  font-size: 15px;
+  transition: background-color 0.5s ease;
+}
+.qbutton:hover {
+  background-color: gray;
+}
+
+#link {
+  background-color: #0075A2;
+  transition: background-color 0.5s ease;
+}
+
+#link:hover {
+  background-color: gray;
+}
+
+#qbox {
+  padding: 10px;
+  border-radius: 15px;
+}
+
+
